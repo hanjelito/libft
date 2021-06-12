@@ -14,7 +14,7 @@
 
 void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
 {
-	size_t count;
+	size_t	count;
 
 	if (dst == NULL && src == NULL)
 		return (NULL);
